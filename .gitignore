@@ -1,0 +1,29 @@
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Local data and model snapshots
+hf_models/
+rec_data/
+conv_data/
+data/
+downloads/
+pretrained/
+
+# Training artifacts
+log/
+logs/
+wandb/
+runs/
+outputs/
+prompt-for-rec/
+prompt-conv-*/
+rec/src/pre-trained-*/
+
+# Large model/checkpoint files
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
